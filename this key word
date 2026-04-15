@@ -3,3 +3,14 @@
 Important note
 this with the arrow function works same as the outer scope as the arrow function does not know about the this keyword,
 so "this" inside the arrow function behaves like its present outside that arrow function.
+
+
+Quick Reference
+Context                          this refers to
+Global scope                     window / global
+Regular function                 window / undefined (strict)
+Object method                    The object itself
+Arrow function                   Outer/lexical scope
+Class constructor                New instance being created
+Event listener                   The DOM element
+call / apply / bind              Whatever you pass in
