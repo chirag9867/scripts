@@ -1,0 +1,5 @@
+"this" keyword details are present in the this.js
+
+Important note
+this with the arrow function works same as the outer scope as the arrow function does not know about the this keyword,
+so "this" inside the arrow function behaves like its present outside that arrow function.
