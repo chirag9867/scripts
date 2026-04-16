@@ -60,3 +60,5 @@ addMovieButton.addEventListener('click', addMovieHandler);
 srchButton.addEventListener('click', searchMovieHandler);
 console.log(movies);
 
+
+
